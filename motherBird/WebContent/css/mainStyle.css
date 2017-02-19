@@ -14,7 +14,7 @@ body {
 #header {
 	border: 1px solid red;
 	background: #521002;
-	height: 30px;
+	height: 80px;
 	width: 100%;
 }
 
@@ -29,23 +29,50 @@ body {
 #sliderthumbanils {
 	border: 1px solid #000040;
 	text-align: center;
-	
-
 }
 
 #thumbnails {
 	border: 1px solid red;
-	display: flex;
 	padding-left: 10px;
-	
+	position: relative;
+	display: block;
+	overflow: hidden;
 }
 
-#thumbnails h3 {
+.entryStage {
+	border: 1px solid black;
+	display: block;
+	float: left;
+	width: 300px;
+	height: 300px;
+	background: #000;
+	position: relative;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 40px;
+	margin-left: 5px;
 	text-align: center;
 }
 
-#thumbnails>div {
-	flex-grow: 1;
+.entryStage .poster {
+	position: absolute;
+	width: 100%;
+	height: 300px;
+	overflow: hidden;
+}
+
+.entryStage .info {
+	padding-top: 15px;
+	height: 300px;
+	overflow: hidden;
+	position: relative;
+}
+
+.venue {
+	background: #ff3;
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
 }
 
 #footer {
