@@ -6,7 +6,7 @@
 }
 
 #option-field{
-	height: 50px;
+	height: 30px;
 }
 
 #time-option-field{
@@ -22,20 +22,19 @@
 }
 
 #image-field{
-	height: 200px;
-	
+	height: 150px;
 }
 
 #image-font-field{
 	background: olive;
 	float:left;
-	width:400px;
+	width:210px;
 }
 
 #image-view-field{
 	background: green;
 	float:left;
-	width:400px;
+	width:590px;
 }
 
 #bottom{
