@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+@IMPORT url("layout.css");
+
+/* ------common style-------------------------------------- */
+.hidden{
+	display: none;
+}
+/* ------top style-------------------------------------- */
+
+#title{
+	height: 25px;
+	text-transform: inherit;
+}
+
+#content{
+	min-height: 350px;
+	border: 3px solid pink;	
+}
+
+#index{
+	min-height: 50px;
+	border: 3px solid gray;	
+}
+
+#btn{
+	text-align: center;
+}
+
+/* ------option field style-------------------------------------- */
+
+#time-option-field{
+	display: block;
+}
+
+/* ------image field style-------------------------------------- */
+
+#image-font-field{
+	float: left;
+}
+
+#color1{
+	/* background:url("../../bimage/color1.png") no-repeat center; */
+	background-color:rgb(255,0,0);
+
+}
+
+#color2{
+	background:url("../../bimage/color2.png") no-repeat center;
+	float: left;
+}
+
+#color3{
+	background:url("../../bimage/color3.png") no-repeat center;
+	float: left;
+}
+
+#color4{
+	background:url("../../bimage/color4.png") no-repeat center;
+	float: left;
+}
+
+#color5{
+	background:url("../../bimage/color5.png") no-repeat center;
+	float: left;
+}
+
+#color6{
+	background:url("../../bimage/color6.png") no-repeat center;
+}
+
+#color7{
+	background:url("../../bimage/color7.png") no-repeat center;
+}
+
+#color8{
+	background:url("../../bimage/color8.png") no-repeat center;
+}
+
+#color9{
+	background:url("../../bimage/color9.png") no-repeat center;
+}
+
+#color10{
+	background:url("../../bimage/color10.png") no-repeat center;
+}
+
+#image{
+	background:url("../../bimage/sd.png") no-repeat;
+}
+
+/* ------bottom style-------------------------------------- */
+#bottom{
+	text-align: right;
+}
