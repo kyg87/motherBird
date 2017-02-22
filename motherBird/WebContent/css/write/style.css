@@ -14,6 +14,7 @@
 
 #title label{
 	background: rgb(255,200,100);
+	border: 2px solid black;
 }
 
 #title input{
@@ -27,12 +28,13 @@
 #content label{
 	float:left;
 	background: rgb(255,200,100);
+	border: 2px solid black;
 }
 
-#content input{
+/* #content input{
 	width:750px;
  	height: 330px;
-}
+} */
 
 #index{
 	min-height: 50px;
@@ -40,11 +42,12 @@
 
 #index label{
 	background: rgb(255,200,100);
+	border: 2px solid black;
 }
 
 #index input{
 	width:750px;
-}
+} 
 
 #btn{
 	text-align: center;
@@ -61,7 +64,12 @@
 }
 
 #time-option-field label{
-	
+
+}
+
+#deadline{
+	background: rgb(255,200,100);
+	border: 2px solid black;
 }
 
 .time-box{
@@ -70,6 +78,7 @@
 
 #image-option-field label{
 	background: rgb(255,200,100);
+	border: 2px solid black;
 }
 
 /* ------image field style-------------------------------------- */
@@ -78,8 +87,9 @@
 
 }
 
-#image-font-field label{
+/* #image-font-field label{
 	background: rgb(255,200,100);
+	border: 2px solid black;
 
 }
 
@@ -89,7 +99,7 @@
 }
 
 #color2{
-	/* background:url("../../bimage/color1.png") no-repeat center; */
+	background:url("../../bimage/color1.png") no-repeat center;
 	background-color:pink;
 
 }
@@ -124,10 +134,13 @@
 
 #color10{
 	background-color:gray;
-}
+} */
 
 #image{
-	background:url("../../bimage/sd.png") no-repeat;
+	margin-left:30px;
+	margin-top:10px;
+	width: 450px;
+	height: 130px;
 }
 
 /* ------bottom style-------------------------------------- */
