@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>어미새와 아기새</title>
+<link href="../css/write/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+
+	<div id="top" class="content-container">
+	
+		<div id="title">
+			<h1 class="hidden">제목입력</h1>
+				<form>
+					<label>제목</label>
+					<input type="text" value="제목을입력하세요."/>
+				</form>
+		</div>
+			
+		<div id="content">
+			<h1 class="hidden">내용입력</h1>
+				<form>
+					<label>내용</label>
+					<!-- <input type="text" value="내용을입력하세요."/> -->
+					<textarea rows="30" cols="92" onclick= "if(this.value=='내용을 입력하세요'){this.value=''}" >내용을 입력하세요</textarea>
+				</form>
+		</div>
+			
+		<div id="index">
+			<h1 class="hidden">항목입력</h1>
+				<form id="select">
+					<label>1번</label>
+					<input type="text" value="항목을입력하세요."/>
+				</form>
+				<form>
+					<label>2번</label>
+					<input type="text" value="항목을입력하세요."/>
+				</form>
+		</div>
+
+		<div id="btn">
+			<h2 class="hidden">버튼입력</h2>
+				<form>	
+					<input type="button" value="항목추가"/>
+				</form>
+		</div>
+
+	</div>
+	
+	
+	<div id="option-field" class="content-container">
+	
+		<div id="time-option-field" class="content-container">			
+			<h1 class="hidden">마감입력</h1>
+				<label>마감일시</label>
+				<input class="time-box" type="text" value="yyyy"/>
+				<label>년</label>
+				<input class="time-box" type="text" value="mm"/>
+				<label>월</label>
+				<input class="time-box" type="text" value="dd"/>
+				<label>일</label>
+				<input class="time-box" type="text" value="hh"/>
+				<label>시</label>				
+		</div>
+		
+		<div id="image-option-field" class="content-container">
+			<h1 class="hidden">사진입력</h1>
+				<label>사진첨부</label>
+				<input type="text" value="파일명"/>
+				<input type="button" value="찾아보기"/>
+		</div>
+		
+	</div>
+
+
+	<div id="image-field" class="content-container">
+		<div id="image-font-field" class="content-container">	
+			<h1 class="hidden">폰트색깔입력</h1>
+				<label>Font Color</label>
+					<input id="color1" type="button"><label class="hidden">색1</label></input>
+					<input id="color2" type="button"><label class="hidden">색2</label></input>
+					<input id="color3" type="button"><label class="hidden">색3</label></input>
+					<input id="color4" type="button"><label class="hidden">색4</label></input>
+					<input id="color5" type="button"><label class="hidden">색5</label></input>
+					<input id="color6" type="button"><label class="hidden">색6</label></input>
+					<input id="color7" type="button"><label class="hidden">색7</label></input>
+					<input id="color8" type="button"><label class="hidden">색8</label></input>
+					<input id="color9" type="button"><label class="hidden">색9</label></input>
+					<input id="color10" type="button"><label class="hidden">색10</labels></input>
+			
+		</div>
+		
+		<div id="image-view-field" class="content-container">	
+			<h1 class="hidden">사진영역</h1>
+				<input id="image" type="image"/>
+				<input type="button" value="미리보기"/>
+		</div>
+	</div>
+	
+	<div id="bottom" class="content-container">
+		<input type="button" value="목록으로"/>
+		<input type="button" value="등록하기"/>
+	</div>
+	
+</body>
+</html>

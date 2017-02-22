@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+
+#top{
+	min-height: 455px;
+	background: red;
+}
+
+#option-field{
+	height: 30px;
+}
+
+#time-option-field{
+	background: aqua;
+	width:400px;
+	float:left;
+}
+
+#image-option-field{
+	background: blue;
+	width:400px;
+	float:left;
+}
+
+#image-field{
+	height: 150px;
+}
+
+#image-font-field{
+	background: olive;
+	float:left;
+	width:210px;
+}
+
+#image-view-field{
+	background: green;
+	float:left;
+	width:590px;
+}
+
+#bottom{
+	background: brack;
+}
+
+.content-container{
+	height:100%;/* 왜함?? */
+	min-height:inherit;
+	width:800px;
+	position:relative;
+}

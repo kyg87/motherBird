@@ -1,0 +1,136 @@
+@CHARSET "UTF-8";
+@IMPORT url("layout.css");
+
+/* ------common style-------------------------------------- */
+.hidden{
+	display: none;
+}
+/* ------top style-------------------------------------- */
+
+#title{
+	height: 25px;
+	text-transform: inherit;
+}
+
+#title label{
+	background: rgb(255,200,100);
+}
+
+#title input{
+	width:750px;
+}
+
+#content{
+	min-height: 350px;
+}
+
+#content label{
+	float:left;
+	background: rgb(255,200,100);
+}
+
+/* #content input{
+	width:750px;
+ 	height: 330px;
+} */
+
+#index{
+	min-height: 50px;
+}
+
+#index label{
+	background: rgb(255,200,100);
+}
+
+#index input{
+	width:750px;
+}
+
+#btn{
+	text-align: center;
+}
+
+/* ------option field style-------------------------------------- */
+
+#option-field{
+	text-align: center;
+}
+
+#time-option-field{
+	display: block;
+}
+
+#time-option-field label{
+	
+}
+
+.time-box{
+	width: 30px;
+}
+
+#image-option-field label{
+	background: rgb(255,200,100);
+}
+
+/* ------image field style-------------------------------------- */
+
+#image-font-field{
+
+}
+
+#image-font-field label{
+	background: rgb(255,200,100);
+
+}
+
+#color1{
+	background-color:rgb(255,0,0);
+
+}
+
+#color2{
+	/* background:url("../../bimage/color1.png") no-repeat center; */
+	background-color:pink;
+
+}
+
+#color3{
+	background-color:yellow;
+}
+
+#color4{
+	background-color:green;
+}
+
+#color5{
+	background-color:blue;
+}
+
+#color6{
+	background-color:sky;
+}
+
+#color7{
+	background-color:purple;
+}
+
+#color8{
+	background-color:rgb(255,255,255);
+}
+
+#color9{
+	background-color:black;
+}
+
+#color10{
+	background-color:gray;
+}
+
+#image{
+	background:url("../../bimage/sd.png") no-repeat;
+}
+
+/* ------bottom style-------------------------------------- */
+#bottom{
+	text-align: right;
+}
