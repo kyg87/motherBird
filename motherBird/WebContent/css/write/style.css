@@ -76,70 +76,17 @@
 	width: 30px;
 }
 
-#image-option-field label{
-	background: rgb(255,200,100);
-	border: 2px solid black;
-}
-
 /* ------image field style-------------------------------------- */
 
-#image-font-field{
-
-}
-
-/* #image-font-field label{
+#image-field label{
 	background: rgb(255,200,100);
 	border: 2px solid black;
-
 }
-
-#color1{
-	background-color:rgb(255,0,0);
-
-}
-
-#color2{
-	background:url("../../bimage/color1.png") no-repeat center;
-	background-color:pink;
-
-}
-
-#color3{
-	background-color:yellow;
-}
-
-#color4{
-	background-color:green;
-}
-
-#color5{
-	background-color:blue;
-}
-
-#color6{
-	background-color:sky;
-}
-
-#color7{
-	background-color:purple;
-}
-
-#color8{
-	background-color:rgb(255,255,255);
-}
-
-#color9{
-	background-color:black;
-}
-
-#color10{
-	background-color:gray;
-} */
 
 #image{
 	margin-left:30px;
 	margin-top:10px;
-	width: 450px;
+	width: 650px;
 	height: 130px;
 }
 

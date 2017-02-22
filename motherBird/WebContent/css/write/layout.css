@@ -22,19 +22,10 @@
 }
 
 #image-field{
-	height: 150px;
-}
-
-/* #image-font-field{
-	background: olive;
-	float:left;
-	width:210px;
-} */
-
-#image-view-field{
 	background: green;
 	float:left;
 	width:800px;
+	height: 150px;
 }
 
 #bottom{
