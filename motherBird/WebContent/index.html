@@ -26,6 +26,8 @@
 	<div id="visual">
  		<div class="container">
  	</div>
+
+	</div>
 	<!-- ------------------------------------------------------- -->
 	<div id="body">	
 		<div class="container clearfix">
@@ -104,28 +106,41 @@
 						</p>
 					</div>
 				</div>
-		<div class="paging">
+				
+			<div class="paging">
+			
+		
 			<a href=""><-</a> <a href="">1</a> <a href="">2</a> <a href="">3</a>
 			<a href="">4</a> <a href="">5</a><a href="">-></a>
+		
 		</div>
 		<div id = "submit">
 		
 			<form>
-				<SELECT NAME=sltSample SIZE=1>
-        <OPTION VALUE=1>제목</OPTION>
+			<fieldset>
+				<legend class="hidden">검색필드</legend>
+                <label class="hidden">검색분류</label>
+                <SELECT>
+        <OPTION VALUE=1 SELECTED>제목</OPTION>
         <OPTION VALUE=2>내용</OPTION>
-        <OPTION VALUE=3 SELECTED>작성자</OPTION>
-  			  </SELECT>
-				<input type="search" value="입력하시오"/>
-				<input type="submit" value="검색"/>
-				
+        <OPTION VALUE=3>작성자</OPTION>
+  			  </select>
+  			  <label class="hidden">검색어</label>
+				<input type="text" placeholder="검색어를 입력하세요"/>
+				<input class="btninfo" type="submit" value="검색"/>
+			</fieldset>
 			</form>
 		
 		</div>
+	
 			</main>
 		</div>
 		</div>
-	
+		
+	<span class="quick"><a href="#header">
+	<img src="images/icons/btn_top.png"  width="50pt" height="50pt"></a>
+	</span>
+		
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="container">
