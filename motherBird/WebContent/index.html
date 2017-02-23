@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 
 <html>
@@ -17,7 +18,7 @@
 			<h1 id="logo"><img src="" alt="Logo"></h1>
 		<div id="main-menu" class="md-menu">
 				<ul>	
-					<li><a href="">로그인 /회원가입</a></li>
+					<li><a href="">로그인 / 회원가입</a></li>
 				</ul>
 		</div>	
 		</div>		
@@ -29,14 +30,15 @@
 	<!-- ------------------------------------------------------- -->
 	<div id="body">	
 		<div class="container clearfix">
-		
-			<main id="thumbnails">
-			<div id="sliderthumbanils">
+	
+		<main id="thumbnails">
+		<div id="sliderthumbanils">
+		</div>
 			
-			</div>
+			<div class="paging">
 			<div class="entryStage">
-					<div class="poster">
-						<img src="images/icons/7.jpg" alt="" />
+					<div>
+						<img src="images/icons/7.jpg" class="image" alt="" />
 					</div>
 
 					<div class="info">
@@ -47,8 +49,8 @@
 				</div>
 
 				<div class="entryStage">
-					<div class="poster">
-						<img src="images/icons/9.jpg" alt="" />
+					<div>
+						<img src="images/icons/9.jpg" class="image" alt="" />
 					</div>
 
 					<div class="info">
@@ -59,8 +61,8 @@
 				</div>
 
 				<div class="entryStage">
-					<div class="poster">
-						<img src="images/icons/13.jpg" alt="" />
+					<div>
+						<img src="images/icons/13.jpg" class="image" alt="" />
 					</div>
 
 					<div class="info">
@@ -71,8 +73,8 @@
 				</div>
 
 				<div class="entryStage">
-					<div class="poster">
-						<img src="images/icons/16.jpg" alt="" />
+					<div>
+						<img src="images/icons/16.jpg" class="image" alt="" />
 					</div>
 
 					<div class="info">
@@ -83,20 +85,20 @@
 				</div>
 
 				<div class="entryStage">
-					<div class="poster">
-						<img src="images/icons/18.jpg" alt="" />
+					<div>
+						<img src="images/icons/18.jpg" class="image" alt="" />
 					</div>
 
 					<div class="info">
 						<p class="venue">
-							<span> 우리가 살고 있는 세계 사실 꿈일까?!</span>
+							<span> 우리가 살고있는 세계 사실 꿈일까?</span>
 						</p>
 					</div>
 				</div>
 
 				<div class="entryStage">
-					<div class="poster">
-						<img src="images/icons/images (1).jpg" alt="" />
+					<div>
+						<img src="images/icons/images (1).jpg" class="image" alt="" />
 					</div>
 
 					<div class="info">
@@ -105,29 +107,34 @@
 						</p>
 					</div>
 				</div>
-
-			</main>
-		</div>
-		</div>
-			<div class="paging">
+		
 			<a href=""><-</a> <a href="">1</a> <a href="">2</a> <a href="">3</a>
 			<a href="">4</a> <a href="">5</a><a href="">-></a>
 		</div>
 		<div id = "submit">
-			<form>
-				<input type="checkbox"> 
-				<input type="submit">
-			</form>
-		</div>
 		
+			<form>
+				<SELECT NAME=sltSample SIZE=1>
+			        <OPTION VALUE=1>제목</OPTION>
+			        <OPTION VALUE=2>내용</OPTION>
+			        <OPTION VALUE=3 SELECTED>작성자</OPTION>
+  				</SELECT>
+				<input type="search" placeholder="입력하세요"/>
+				<input type="submit" value="검색"/>
+				
+			</form>
+		
+		</div>
+			</main>
+		</div>
+		</div>
+	
 		<!-- Footer -->
 		<footer id="footer">
 			<div class="container">
 			<p>footer</p>
 			</div>
 		</footer>
-
-	</div>
 
 </body>
 </html>
