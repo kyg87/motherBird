@@ -3,16 +3,25 @@
 <head>
 <meta charset="UTF-8">
 <title>어미새와 아기새</title>
+<link href="../css/reset.css" type="text/css" rel="stylesheet" />
 <link href="../css/write/layout.css" type="text/css" rel="stylesheet" />
 <link href="../css/write/style.css" type="text/css" rel="stylesheet" />
+<link href="../css/mainStyle.css" type="text/css" rel="stylesheet" />
 
 </head>
 <body>
-
-
+	<header id="header" class="container">
+		<h1 id="logo">
+			<img src="" alt="Logo">
+		</h1>
+		<div id="main-menu" class="md-menu">
+			<input type="button" name="버튼" value="글쓰기"
+				onclick="window.open('write/write.html','width=350,height=200')" />
+			<input type="button" name="버튼" value="로그인/가입"
+				onclick="window.open('KY.html','width=350,height=200')" />
+		</div>
+	</header>
 	<div id="main">
-
-
 		<div id="top">
 
 			<div id="title">
@@ -82,18 +91,23 @@
 			</div>
 
 			<div id="image">
-				<img src="../images/icons/7.jpg" width="80px" height="80px"/>
+				<img src="../images/icons/7.jpg" width="80px" height="80px" />
 			</div>
 
 		</div>
 
 
 		<div id="bottom">
-			<input class="btn" type="button" value="목록으로" /> <input class="btn" type="button" value="등록하기" />
+			<input class="btn" type="button" value="목록으로" /> <input class="btn"
+				type="button" value="등록하기" />
 		</div>
 
 
 	</div>
-
+	<footer id="footer">
+		<div class="container">
+			<p>footer</p>
+		</div>
+	</footer>
 </body>
 </html>
