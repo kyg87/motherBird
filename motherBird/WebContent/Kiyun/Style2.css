@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+
+@IMPORT url("layout2.css");
+
+#login {
+	border: 1px solid black;
+}
+
+#loginn {
+	font-family: 궁서체, 궁서, sans-serif;
+	border-bottom: 1px solid black;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+#account {
+	border: 1px solid black;
+}
+
+#accountt {
+	font-family: 궁서체, 궁서, sans-serif;
+	border-bottom: 1px solid black;
+	padding-left: 10px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+
+#login {
+	float: right;
+	width: 450px;
+	height: 400px;
+}
+
+#account {
+	float: right;
+}
+
+.hr-login {
+	float: right;
+}
+
+#login {
+	float: left;
+}
+
+#account {
+	float: left;
+	width: 450px;
+	height: 400px;
+}
+
+#loginWindow{
+	margin-top: 10px;
+}
+
+.loginbutton {
+	float: right;
+}
+
+.lul {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.aul {
+	padding-left: 20px;
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
+
+.acB {
+	padding-top: 5px;
+	margin-right: 120px;
+}
+.loB{
+	padding-top: 5px;
+	margin-right: 120px;
+}
+.bar{
+	width:300px;
+	height: 20px;
+}
+.jool{
+	border-top:1px solid black;
+	text-align: center;
+	padding-top:50px;
+}
+
+.loB2{
+	padding-top: 5px;
+	margin-right: 80px;
+}
+
