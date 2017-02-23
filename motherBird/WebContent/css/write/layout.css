@@ -1,40 +1,33 @@
 @CHARSET "UTF-8";
 
+
+
 #top{
-	min-height: 455px;
-	background: red;
+	min-height:300px;
+	
+/* 	border:1px solid black; */
 }
 
 #option-field{
-	height: 30px;
-}
-
-#time-option-field{
-	background: aqua;
-	width:400px;
-	float:left;
-}
-
-#image-option-field{
-	background: blue;
-	width:400px;
-	float:left;
-}
-
-#image-field{
-	background: green;
-	float:left;
-	width:800px;
-	height: 150px;
+	padding-top:30px;
+	height:100px;
+	display:block;
+	text-align:center;
 }
 
 #bottom{
-	background: brack;
+	text-align:center;
+	height:50px;
+	
 }
 
-.content-container{
-	height:100%;/* 왜함?? */
-	min-height:inherit;
+#main{
 	width:800px;
+	height:100%;
+	min-height:500px;
+	margin:0 auto;
 	position:relative;
+	text-align:center;
+	/* margin-top:300px;
+	margin-bottom:300px; */
 }

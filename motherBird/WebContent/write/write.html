@@ -7,83 +7,91 @@
 </head>
 <body>
 
-	<div id="top" class="content-container">
-	
-		<div id="title">
-			<h1 class="hidden">제목입력</h1>
+
+	<div id="main">
+
+
+		<div id="top">
+
+			<div id="title">
+				<h1 class="hidden">제목입력</h1>
 				<form>
-					<label>제목</label>
-					<input type="text" value="제목을입력하세요."/>
+					<label class="label">제목</label> <input class="box" type="text"
+						placeholder="제목을입력하세요." />
 				</form>
-		</div>
-			
-		<div id="content">
-			<h1 class="hidden">내용입력</h1>
+			</div>
+
+			<div id="content">
+				<h1 class="hidden">내용입력</h1>
 				<form>
-					<label>내용</label>
-					<!-- <input type="text" value="내용을입력하세요."/> -->
-					<textarea rows="30" cols="92" onclick= "if(this.value=='내용을 입력하세요'){this.value=''}" >내용을 입력하세요</textarea> 
+					<label class="label">내용</label>
+					<textarea rows="30" cols="92"
+						onclick="if(this.value=='내용을 입력하세요'){this.value=''}">내용을 입력하세요</textarea>
 				</form>
-		</div>
-			
-		<div id="index">
-			<h1 class="hidden">항목입력</h1>
-				<form id="select">
-					<label>1번</label>
-					<input type="text" value="항목을입력하세요."/>
-				
-				</form>
-				<form>
-					<label>2번</label>
-					<input type="text" value="항목을입력하세요."/>
-				</form>
+			</div>
+
+			<div id="index-field">
+				<div id="index">
+					<h1 class="hidden">항목입력</h1>
+					<form>
+						<label class="label">1번</label> <input class="box" type="text"
+							placeholder="항목을입력하세요." />
+					</form>
+					<form>
+						<label class="label">2번</label> <input class="box" type="text"
+							placeholder="항목을입력하세요." />
+					</form>
+				</div>
+
+				<div id="index-btn">
+					<h2 class="hidden">버튼입력</h2>
+					<form>
+						<input class="btn-style" type="button" value="항목추가" />
+					</form>
+				</div>
+			</div>
+
 		</div>
 
-		<div id="btn">
-			<h2 class="hidden">버튼입력</h2>
-				<form>	
-					<input type="button" value="항목추가"/>
-				</form>
+
+		<div id="option-field">
+
+			<div id="time-option">
+				<div id="time-field">
+					<h1 class="hidden">마감입력</h1>
+					<label>마감일시</label>
+				</div>
+				<div id="time-detail">
+					<input type="datetime-local" />
+				</div>
+			</div>
+
+			<div id="image-option">
+				<div id="image-field">
+					<h1 class="hidden">사진입력</h1>
+					<label>사진첨부</label>
+				</div>
+				<div id="image-detail">
+					<input type="text" value="파일명" /> <input class="btn-style"
+						type="button" value="찾아보기" /> <input class="btn-style"
+						type="button" value="미리보기" />
+				</div>
+
+			</div>
+
+			<div id="image">
+				<img src="../images/bg.jpg" width="80px" height="80px"/>
+			</div>
+
 		</div>
 
-	</div>
-	
-	
-	<div id="option-field" class="content-container">
-	
-		<div id="time-option-field" class="content-container">			
-			<h1 class="hidden">마감입력</h1>
-				<label id="deadline">마감일시</label>
-				<input class="time-box" type="text" value="yyyy"/>
-				<label>년</label>
-				<input class="time-box" type="text" value="mm"/>
-				<label>월</label>
-				<input class="time-box" type="text" value="dd"/>
-				<label>일</label>
-				<input class="time-box" type="text" value="hh"/>
-				<label>시</label>				
+
+		<div id="bottom">
+			<input class="btn" type="button" value="목록으로" /> <input class="btn" type="button" value="등록하기" />
 		</div>
-		
-		<div id="image-option-field" class="content-container">
-			<h1 class="hidden">사진입력</h1>
-				<label>사진첨부</label>
-				<input type="text" value="파일명"/>
-				<input type="button" value="찾아보기"/>
-		</div>
-		
-	</div>
 
 
-	<div id="image-field" class="content-container">		
-		<h1 class="hidden">사진영역</h1>
-			<image id="image" src="../bimage/sd.png"/>
-			<input type="button" value="미리보기"/>
 	</div>
-	
-	<div id="bottom" class="content-container">
-		<input type="button" value="목록으로"/>
-		<input type="button" value="등록하기"/>
-	</div>
-	
+
 </body>
 </html>
