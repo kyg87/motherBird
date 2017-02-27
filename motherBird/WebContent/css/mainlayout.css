@@ -26,16 +26,7 @@
 } */
 
 
-#visual {	
-	border: 1px solid blue;
-	height: 240px;
-	background: #313131 url("../images/etc/vote.jpg") no-repeat center;
-	top:50px;
 
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
 
 #body{
 	
@@ -48,28 +39,7 @@
 }
 
 
-#sliderthumbanils {
-	border: 1px solid #000040;
-	height: 240px;
-	background: url("../images/slider-bg.jpg") no-repeat center;
 
-	
-	display:block;
-	margin-bottom: 10px;
-}
-
-#thumbnails {
-	min-height: 800px;
-	border: 1px solid red;
-	
-	position: relative;
- 	overflow: hidden; 
- 	
- 	
- 	
-	display:block;
-	
-}
 
  #footer {
 	border: 1px solid;
