@@ -2,12 +2,13 @@
 
 #main{
 	min-height:600px;
-	width:980px;
+	width:inherit;
 	height:100%;
 	
 	border-radius: 4px;
  	border: 1px solid #ccc;
  	color: #555;
+ 	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
  	
  	padding:5px;
 	margin:0 auto;
@@ -20,7 +21,7 @@
 
 #main-table{
 	min-height:500px;
-	width:100%;
+	width:inherit;
 }
 
 #option-field{
