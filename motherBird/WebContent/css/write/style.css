@@ -12,6 +12,12 @@
 	display: none;
 }
 
+#main{
+	font-family: 맑은고딕, 고딕, sans-serif;
+	font-size: 14px;
+	text-align: center;
+}
+
 .btn-style{
 	/* color: #fff;
     background-color: #f0ad4e;
@@ -65,18 +71,10 @@
     border-radius: 4px;	
 }
 
-.label{
-    margin-bottom: 5px;
-    font-weight: 700;
-    cursor: default;
-}
-
-
 .box{
 	display: inline-block;
     height: 34px;
     padding: 6px 12px;
-    font-size: 14px;
     line-height: 1.42857143;
     color: #555;
     background-color: #fff;
@@ -88,14 +86,37 @@
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    width:700px;
+    width:890px;
+    margin-left:7px;
+}
+
+.mini-box{
+	display: inline-block;
+    height: 24px;
+    padding: 6px 6px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    width:230px;
+}
+
+ /* ------main-table style-------------------------------------- */
+#main-table{
+	padding:7px;
 }
 
 #content-box{
 	display: inline-block;
     height: 500px;
     padding: 6px 12px;
-    font-size: 14px;
     line-height: 1.42857143;
     color: #555;
     background-color: #fff;
@@ -107,37 +128,9 @@
     -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
     -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
     transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
-    width:700px;
+    width:890px;
+    margin-left:7px;
 }
-
-
- /* ------title style-------------------------------------- */
-#main-table tr:first-child{
-	margin-bottom: 5px;
-}
-
-#title input{
-	display: inline;
-}
-
-#content label{
-	float: left;
-}
-
-#content textarea{
-	width:720px;
-}
-
-#index-field{
-	margin-top: 5px;
-}
-
-#index-btn{
-	margin-top: 5px;
-	margin-bottom: 5px;
-	text-align: center;
-}
-
 
  /* ------option-field style-------------------------------------- */
 
@@ -173,6 +166,7 @@
 	float: left;
 	border:1px black;
 }
+
 
  /* ------bottom style-------------------------------------- */
 

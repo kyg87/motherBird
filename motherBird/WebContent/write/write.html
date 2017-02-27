@@ -10,46 +10,46 @@
 
 </head>
 <body>
-	<header id="header" class="container">
-		<h1 id="logo">
-			<img src="" alt="Logo">
-		</h1>
-		<div id="main-menu" class="md-menu">
-			<input type="button" name="버튼" value="글쓰기"
-				onclick="window.open('write/write.html','width=350,height=200')" />
-			<input type="button" name="버튼" value="로그인/가입"
-				onclick="window.open('KY.html','width=350,height=200')" />
-		</div>
+	<header id="header">
+		<div class="container">
+			<h1 id="logo"><img src="" alt="Logo"></h1>
+			<div id="main-menu">
+				<input type="button" name="버튼" value="글쓰기"
+					onclick="window.open('write/write.html','width=350,height=200')" />
+				<input type="button" name="버튼" value="로그인/가입"
+					onclick="window.open('KY.html','width=350,height=200')" />
+			</div>	
+		</div>		
 	</header>
-	
-	
-	
 	
 	
 	<div id="main">
 	
-		<table class="main-table">
-					<tr>
-						<td>제목</td>
-						<td><input class="box" type="text" placeholder="제목을입력하세요." /></td>
-					</tr>
-					<tr>
-						<td>내용</td>
-						<td><textarea id="content-box" rows="30" cols="88" onclick="if(this.value=='내용을 입력하세요'){this.value=''}">내용을 입력하세요</textarea> </td>
-					</tr>
-					<tr>
-						<td>1번</td>
-						<td><input class="box" type="text" placeholder="항목을입력하세요." /></td>
-					</tr>
-					<tr>
-						<td>2번</td>
-						<td><input class="box" type="text" placeholder="항목을입력하세요." /></td>
-					</tr>
-					<tr>
-						<td class="hidden">항목버튼</td>
-						<td><input class="btn-style" type="button" value="항목추가" /></td>
-					</tr>
+		<table id="main-table">
+			<thead>
+				<tr>
+					<td>제목</td>
+					<td><input class="box" type="text" placeholder="제목을입력하세요." /></td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>내용</td>
+					<td><textarea id="content-box" rows="30" cols="88" onclick="if(this.value=='내용을 입력하세요'){this.value=''}">내용을 입력하세요</textarea> </td>
+				</tr>
+				<tr>
+					<td>1번</td>
+					<td><input class="box" type="text" placeholder="항목을입력하세요." /></td>
+				</tr>
+				<tr>
+					<td>2번</td>
+					<td><input class="box" type="text" placeholder="항목을입력하세요." /></td>
+				</tr>
+			</tbody>
 		</table>
+		
+		<input class="btn-style" type="button" value="항목추가" />
+
 		<!-- <div id="top">
 
 			<div id="title">
@@ -101,7 +101,7 @@
 					<label>마감일시</label>
 				</div>
 				<div id="time-detail">
-					<input type="datetime-local" />
+					<input class="mini-box" type="datetime-local" />
 				</div>
 			</div>
 
@@ -111,23 +111,22 @@
 					<label>사진첨부</label>
 				</div>
 				<div id="image-detail">
-					<input type="text" value="파일명" /> <input class="btn-style"
-						type="button" value="찾아보기" /> <input class="btn-style"
-						type="button" value="미리보기" />
+					<input class="mini-box" type="text" placeholder="파일명" /> 
+					<input class="btn-style" type="button" value="찾아보기" /> 
+					<input class="btn-style" type="button" value="미리보기" />
 				</div>
-
 			</div>
 
 			<div id="image">
-				<img src="../images/icons/7.jpg" width="80px" height="80px" />
+				<img src="../images/icons/7.jpg" width="160px" height="140px" />
 			</div>
 
 		</div>
 
 
 		<div id="bottom">
-			<input class="btn" type="button" value="목록으로" /> <input class="btn"
-				type="button" value="등록하기" />
+			<input class="btn" type="button" value="목록으로" /> 
+			<input class="btn" type="button" value="등록하기" />
 		</div>
 
 	</div>
