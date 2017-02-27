@@ -21,8 +21,36 @@
 				onclick="window.open('KY.html','width=350,height=200')" />
 		</div>
 	</header>
+	
+	
+	
+	
+	
 	<div id="main">
-		<div id="top">
+	
+		<table class="main-table">
+					<tr>
+						<td>제목</td>
+						<td><input class="box" type="text" placeholder="제목을입력하세요." /></td>
+					</tr>
+					<tr>
+						<td>내용</td>
+						<td><textarea id="content-box" rows="30" cols="88" onclick="if(this.value=='내용을 입력하세요'){this.value=''}">내용을 입력하세요</textarea> </td>
+					</tr>
+					<tr>
+						<td>1번</td>
+						<td><input class="box" type="text" placeholder="항목을입력하세요." /></td>
+					</tr>
+					<tr>
+						<td>2번</td>
+						<td><input class="box" type="text" placeholder="항목을입력하세요." /></td>
+					</tr>
+					<tr>
+						<td class="hidden">항목버튼</td>
+						<td><input class="btn-style" type="button" value="항목추가" /></td>
+					</tr>
+		</table>
+		<!-- <div id="top">
 
 			<div id="title">
 				<h1 class="hidden">제목입력</h1>
@@ -62,7 +90,7 @@
 				</div>
 			</div>
 
-		</div>
+		</div> -->
 
 
 		<div id="option-field">
@@ -102,12 +130,21 @@
 				type="button" value="등록하기" />
 		</div>
 
-
 	</div>
+	
+	
+	
+	
+	
+	
 	<footer id="footer">
 		<div class="container">
 			<p>footer</p>
 		</div>
 	</footer>
+	
+	
+	
+	
 </body>
 </html>
