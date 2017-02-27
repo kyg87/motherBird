@@ -17,10 +17,10 @@ var createNewTask = function(taskEntered) {
     var numName = document.createElement("td");
 	var inputText = document.createElement("input"); //checkbox
     var checkbox = document.createElement("input"); //checkbox
-	var span = document.createElement("span"); // <span>
+
 
 	//PULL THE INPUTED TEXT INTO LABEL AND ADD IT TO THE SPAN
-	span.innerText = taskEntered;
+
 	
 	//ADD INPUT TYPE OF CHECKBOX TO THE INPUT
     checkbox.type ="checkbox";
@@ -30,7 +30,7 @@ var createNewTask = function(taskEntered) {
 	//ADD ITEMS TO THE LI WE JUST CREATED
 	listItem.appendChild(numName);
     listItem.appendChild(inputText).className += "box";
-	listItem.appendChild(span);
+
     listItem.appendChild(checkbox);
 	//EVERYTHING PUT TOGETHER
 	return listItem;
