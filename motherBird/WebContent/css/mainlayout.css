@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/* Basic */
+/* <-----------------header----------> */
+#header {
+	border: 1px solid blue;
+	height: 75px;
+
+
+	
+}
+#main-menu{
+	float : right;
+}
+
+/* ------------------버튼형식이면 이것을 안씀------------ */
+/* #main-menu li a{
+	float : right;
+}
+
+.md-menu li a{
+	text-decoration: none;
+}
+.md-menu li a:hover{
+	text-decoration: underline;
+} */
+
+
+#visual {	
+	border: 1px solid blue;
+	height: 240px;
+	background: #313131 url("../images/etc/vote.jpg") no-repeat center;
+	top:50px;
+
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#body{
+	
+	margin-top:1px;
+	
+	
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#sliderthumbanils {
+	border: 1px solid #000040;
+	height: 240px;
+	background: url("../images/slider-bg.jpg") no-repeat center;
+
+	
+	display:block;
+	margin-bottom: 10px;
+}
+
+#thumbnails {
+	min-height: 800px;
+	border: 1px solid red;
+	
+	position: relative;
+ 	overflow: hidden; 
+ 	
+ 	
+ 	
+	display:block;
+	
+}
+
+ #footer {
+	border: 1px solid;
+	height: 100px;
+	background: #2e2a28;
+}
+
+
+
+/* --------------------페이지 영역 크기--------------- */
+.container
+{	
+width:982px;
+height:100%;
+min-height : inherit;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
+/* ---------------------------------------------------- */
+
+
+.quick{
+position:fixed;
+bottom:50px;
+right:410px;
+
+}
+
+.clearfix{
+	
+	overflow:auto;
+	zoom: 1;
+}
