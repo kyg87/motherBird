@@ -1,47 +1,9 @@
 @charset "utf-8";
-
+@IMPORT url("mainlayout.css");
 /* Basic */
 .hidden{
 	display: none;
 }
-/* <-----------------header----------> */
-#header {
-	border: 1px solid blue;
-	width:100%;
-	height: 50px;
-	
-	background: black;
-		
-
-/* 	display:block;
-	margin-left: auto;
-	margin-right: auto; */
-	
-	/* background: #521002; */
-	/* width: 100%; */
-	
-}
-#main-menu{
-	float : right;
-	
-	
-/* 	position:absolute;
-	display:inline-block; */
-	
-}
-
-.md-menu li a{
-	text-decoration: none;
-}
-.md-menu li a:hover{
-	text-decoration: underline;
-}
-
-
-
-/* ----------------------visual---------------------- */
-
-
 
 #visual {	
 	border: 1px solid blue;
@@ -54,45 +16,27 @@
 	margin-right: auto;
 }
 
-/* -------------------------------------------------------- */
-
-/* --------------------body-------------------------- */
-#body{
-	min-height: 900px;
-	margin-top:1px;
-	
-	
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
 #sliderthumbanils {
 	border: 1px solid #000040;
 	height: 240px;
 	background: url("../images/slider-bg.jpg") no-repeat center;
-	/* width:100%; */
-	/* text-align: center; */
-	
+
 	
 	display:block;
 	margin-bottom: 10px;
 }
-
 #thumbnails {
-	min-height: 800px;
+ 	min-height: 800px;
 	border: 1px solid red;
 	
 	position: relative;
  	overflow: hidden; 
  	
  	
- 	/* padding-left: 10px; */
+ 	
 	display:block;
 	
 }
-
 .entryStage {
 	border: 1px solid black;
 	display: block;
@@ -124,7 +68,7 @@
 }
 .info{
 	position: absolute;
-	/* margin-top: 110px; */
+	margin-top: 110px;
 	
 }
 /* ------------------------------------------------------ */
@@ -163,22 +107,6 @@
     background-color: yellow;
     border-color: yellow;
 }
- #footer {
-	border: 1px solid;
-	height: 100px;
-	background: #2e2a28;
-}
-/* ----------------------------------------------------------- */
-/* --------------------페이지 영역 크기--------------- */
-.container
-{	
-width:982px;
-height:100%;
-min-height : inherit;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-}
 /* ---------------------------------------------------- */
 /* 이미지 크기 자동조절 */
 img {
@@ -187,16 +115,3 @@ height: auto;
 	
 }
 /* 이미지 크기 자동조절 */
-
-/* 탑버튼 만듬 */
-.quick{
-position:fixed;
-bottom:50px;
-right:30px;
-
-}
-.clearfix{
-	
-	overflow:auto;
-	zoom: 1;
-}
