@@ -2,10 +2,9 @@
 @IMPORT url("layout.css");
 
 
-/* body{
-	background: url("../../bimage/aaa.png");
-	background-size: cover;
-}  */
+body{
+	background: rgb(250,205,0);
+} 
 
  /* ------common style-------------------------------------- */
 .hidden{

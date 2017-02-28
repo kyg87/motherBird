@@ -1,17 +1,38 @@
 @charset "utf-8";
 
-/* Basic */
-/* <-----------------header----------> */
+/* <-----------------header------------------------------------------------------------> */
 #header {
-	border: 1px solid blue;
-	height: 75px;
-
-
-	
+	width: 100%;
+	min-height:50px;
+	position: fixed;
+	background:rgb(0,0,0);
+	display: block;
 }
+
+#visual{
+	background: rgb(0,0,0);
+	min-height: 400px;
+	top:50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #main-menu{
 	float : right;
 }
+
+#body{	
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+ #footer {
+	height: 100px;
+	background: rgb(0,0,0);
+	text-align: center;
+}
+
 
 /* ------------------버튼형식이면 이것을 안씀------------ */
 /* #main-menu li a{
@@ -25,50 +46,31 @@
 	text-decoration: underline;
 } */
 
+/* --------------------페이지 영역 크기--------------- */
+.container{	
+	width:982px;
+	height:100%;
+	min-height : inherit;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	/* z-index: -1; */
+}
 
-
-
-#body{
-	
-	margin-top:1px;
-	
-	
-	display:block;
+#first-container{
+	width:982px;
+	height:100%;
+	min-height : inherit;
 	margin-left: auto;
 	margin-right: auto;
 }
-
-
-
-
- #footer {
-	border: 1px solid;
-	height: 100px;
-	background: #2e2a28;
-}
-
-
-
-/* --------------------페이지 영역 크기--------------- */
-.container
-{	
-width:982px;
-height:100%;
-min-height : inherit;
-margin-left: auto;
-margin-right: auto;
-position: relative;
-}
 /* ---------------------------------------------------- */
-
-
 .quick{
 position:fixed;
 bottom:50px;
 right:410px;
 
 }
-
 .clearfix{
 	
 	overflow:auto;
