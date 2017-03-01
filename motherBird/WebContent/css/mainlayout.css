@@ -7,6 +7,7 @@
 	position: fixed;
 	background:rgb(0,0,0);
 	display: block;
+    z-index: 8999;
 }
 
 #visual{
