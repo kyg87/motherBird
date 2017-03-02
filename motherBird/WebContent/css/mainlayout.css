@@ -2,11 +2,6 @@
 
 /* <-----------------header------------------------------------------------------------> */
 #header {
-<<<<<<< HEAD
-	border: 1px solid blue;
-	height: 50px;
-
-=======
 	width: 100%;
 	min-height:50px;
 	position: fixed;
@@ -14,7 +9,6 @@
 	display: block;
     z-index: 8999;
 }
->>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 
 #visual{
 	background: rgb(0,0,0);
@@ -23,14 +17,10 @@
 	margin-left: auto;
 	margin-right: auto;
 }
-<<<<<<< HEAD
-/* 
-=======
 
->>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 #main-menu{
 	float : right;
-} */
+}
 
 #body{	
 	display:block;
@@ -79,7 +69,7 @@
 .quick{
 position:fixed;
 bottom:50px;
-right:40px;
+right:410px;
 
 }
 .clearfix{
