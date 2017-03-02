@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/mainStyle.css" />
 <link rel="stylesheet" href="css/contentStyle.css" />
+<link rel="stylesheet" href="css/mainlayout.css" />
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>
@@ -27,11 +28,13 @@
 			</dt>
 			<dt>GwangForever</dt>
 			<dt>작성일 : 2017/02/22 | 마감일 : 2017/02/23</dt>
+			<br><br>
 		</dl>
 	</div>
 
 	<div class="write-content">
-		<div id="user-picture"></div>
+		<img alt="" src="./images/icons/AC8.jpg" style="border:1px solid black; border-radius:20px;">
+<!-- 		<div id="user-picture"></div> -->
 		<div id="user-input-text">
 			<dl>
 				<dt></dt>
@@ -45,24 +48,25 @@
 		<div id="vote-style">
 			<dl>
 				<dt>
-					<h2>총 투표수</h2>
+					<h2>= 총 투표수 =</h2>
 				</dt>
-				<dd>1. 웃고있다.</dd>
+				<dd>1. 웃고있다. <dd id="percent">60%</dd></dd>
+				
 				<dd>
 					<meter class="vote-bar" value="6" min="0" max="10"></meter>
-					60%
+					
 				</dd>
 				<br>
-				<dd>2. 울고있다.</dd>
+				<dd>2. 울고있다. <dd id="percent">10%</dd></dd>
 				<dd>
 					<meter class="vote-bar" value="1" min="0" max="10"></meter>
-					10%
+					
 				</dd>
 				<br>
-				<dd>3. 울웃고있다.</dd>
+				<dd>3. 울웃고있다. <dd id="percent">30%</dd></dd>
 				<dd>
 					<meter class="vote-bar" value="3" min="0" max="10"></meter>
-					30%
+					
 				</dd>
 				<br>
 				<br>
@@ -126,7 +130,11 @@
 			<span> 광렬이형 잘 지내시죠?? 이런 곳에서 다 뵙네요!! ^^ 형 근데 돈은언제 갚을
 				ㅏ떠낀얼ㅇ너리ㅓ낭ㄹ너ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
 				갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
-				갚아라ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라
+				갚아라ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
+				갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
+			작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
+				갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
+				갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진 진리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라
 				참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라
 				참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
 				갚아라 참는데도 한계가 있다 진짜 시@발 영정 </span>
@@ -144,6 +152,43 @@
 		<!-- 프로필 & 아이디 & 작성시간 & 수정삭제버튼 & 댓글내용 & 답글 버튼<br><br> -->
 	</div>
 
+	<div class="user-replies">
+		<br>
+
+		<div class="user-reply-profile">
+			<img alt="" src="images/icons/hoo.jpg"
+				style="max-width: 100%; height: 100%;">
+		</div>
+
+		<div class="user-select-num">
+			<img alt="" src="./images/icons/select1.png"
+				style="max-width: 100%; height: 100%;">
+		</div>
+		<div class="user-reply-info">
+			<label>HooForever</label> <label>작성시간 : 2017/02/23 17:00</label>
+		</div>
+
+		<div class="user-reply-txt">
+			<span> 광렬이형 잘 지내시죠?? 이런 곳에서 다 뵙네요!! ^^ 형 근데 돈은언제 갚을
+				ㅏ떠낀얼ㅇ너리ㅓ낭ㄹ너ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
+				갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
+				ㄷ작!!!!개 시발 진짜 빨리 갚아라
+				참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라
+				참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리 갚아라 참는데도 참는데도ㅏㅎㅏㄷ3히ㅏㅅㄷ작!!!!개 시발 진짜 빨리
+				갚아라 참는데도 한계가 있다 진짜 시@발 영정 </span>
+		</div>
+
+		<div class="user-reply-buttons">
+			<button>수정</button>
+			<button>삭제</button>
+		</div>
+
+		<div>
+			<button>답글</button>
+		</div>
+
+		<!-- 프로필 & 아이디 & 작성시간 & 수정삭제버튼 & 댓글내용 & 답글 버튼<br><br> -->
+	</div>
 
 	<br>
 	<br>
