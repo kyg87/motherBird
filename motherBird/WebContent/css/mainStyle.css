@@ -6,7 +6,6 @@ body{
 } 
 
 /* Basic */
-/* ---------------------------헤더------------------------- */
 .hidden{
 	display: none;
 }
@@ -29,55 +28,6 @@ body{
 
 /* ----------------------visual---------------------- */
 
-
-#function-button{
-	padding-right:10px;
-	padding-top:10px;
-}
-
-#sign_button{
-	right:0px;
-	position:relative;
-	
-	float:right;
-	width:100px;
-	height:30px;
-	border-radius: 5px;
-	border: 1px solid black;
-	background-color: white;
-}
-
-#search_button{
-	margin-right:10px;
-	right:0px;
-	position:relative;
-	
-	float:right;
-	width:100px;
-	height:30px;
-	border-radius: 5px;
-	border: 1px solid black;
-	background-color: white;
-}
-
-#write_button{
-	margin-right:10px;
-	right:0px;
-	position:relative;
-	
-	float:right;
-	width:100px;
-	height:30px;
-	border-radius: 5px;
-	border: 1px solid black;
-	background-color: white;
-}
-
-#function-toggle{
-	display: none;
-}
-
-/* ---------------------------------비주얼---------------- */
 #visual {	
 
 }
@@ -92,25 +42,15 @@ body{
 	margin-right: auto;
 }
 
-<<<<<<< HEAD
-.poster img{
-	height:250px;
-}
-
-#sliderthumbanils {
-	border: 1px solid #000040;
-    height: 240px;
-    background: url(../images/slider-bg.jpg) no-repeat center;
-    display: block;
-=======
 
 #sliderthumbanils {
 	height: 240px;
 	background: url("../images/slider-bg.jpg") no-repeat center;
 	/* width:100%; */
 	/* text-align: center; */
->>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 	
+	display:block;
+	margin-bottom: 10px;
 }
 
 #thumbnails {
@@ -121,18 +61,13 @@ body{
  	overflow: hidden; 
  	
  	
-<<<<<<< HEAD
-=======
  	/* padding-left: 10px; */
->>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 	display:block;
 	
 }
 
 .entryStage {
-	/* border: 1px solid black; */
-	border-top-left-radius: 4px;
-	border-top-right-radius: 4px;
+	border: 1px solid black;
 	display: block;
 	float: left;
 	width: 300px;
@@ -141,10 +76,10 @@ body{
 	position: relative;
 	margin-top: 0px;
 	margin-bottom: 20px;
-	margin-left: 18px;
+	margin-left: 11px;
 /* 	margin-right:5px; */
-	/* padding: 5px; */
-	padding-top: 15px;
+	padding: 5px; 
+	text-align: center;
 	
 	overflow:hidden; 
 }
@@ -161,9 +96,6 @@ body{
 	
 }
 .info{
-<<<<<<< HEAD
-	background: #ff8080;
-=======
 	position: absolute;
 	/* margin-top: 110px; */
 	
@@ -178,32 +110,22 @@ body{
 
 .venue {
 	background: #ff3;
->>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 	color: #000;
 	font-size: 14px;
 	font-weight: bold;
-	height: 50px;
-	overflow: hidden;
-	position: relative;	
+	
 }
-.content-title{
-	display:table-cell;
-	vertical-align:middle
-}
-/* ------------------------------------------------------ */
+
 /* 페이지 부분  */
 .paging {
 	text-align: center;
 }
 
-#content{
-    border: 1px solid;
-    padding-top: 20px;
+#submit{
+	text-align: right;
+	border:1px solid;
 }
 
-#search-bar{
-	text-align:right;
-}
 
 .btninfo{
     text-align: center;
