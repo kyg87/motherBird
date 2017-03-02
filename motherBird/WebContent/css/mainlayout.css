@@ -4,14 +4,15 @@
 /* <-----------------header----------> */
 #header {
 	border: 1px solid blue;
-	height: 75px;
+	height: 50px;
 
 
 	
 }
+/* 
 #main-menu{
 	float : right;
-}
+} */
 
 /* ------------------버튼형식이면 이것을 안씀------------ */
 /* #main-menu li a{
@@ -65,7 +66,7 @@ position: relative;
 .quick{
 position:fixed;
 bottom:50px;
-right:410px;
+right:40px;
 
 }
 
