@@ -2,77 +2,33 @@
 
 .write-title{
 	font-size:20px;
-	color:black;
-	/* background: linear-gradient(to left, #4DA0B0 , #D39D38); */
-	background:#BBDEFB;
+	color:blue;
+	background: #80DEEA;
 }
 
 .write-content{
 	/* height : 50px;
 	width : 200px; */
-	/* background: linear-gradient(to left, #4DA0B0 , #D39D38); */
-	background:#BBDEFB;
-}
-
-.write-content img{	
-	margin-left: auto;
-    margin-right: auto;
-    display: block;
+	background: #98daaa;
+	/* url src="../images/icons/1.png" */
 }
 
 #vote-style{
 	font-weight: bold;	
-		
-}
-
-#vote-style dt{
-	font-size:20px;
-	font-style:bold;
-	margin-bottom: 30px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#vote-style dl{
-	    border: dotted 3px black;
-    border-radius: 20px;
-    width: 972px;
-    /* padding-left: 30px;
-    padding-top: 15px; */
-}
-
-#vote-style dd{
-	text-indent:10px;
-	margin-left:20px;
-}
-
-#percent{
-	float:right;
-	margin-right:45px;
-}
-
-#vote-style meter{
-	margin-left: 10px;
-    margin-right: auto;
-    display: block;
 }
 
 #user-picture{
 	height:400px;
 	width:1800px;
-	/* background: url("../images/icons/AC8.jpg") no-repeat center; */
-	
+	background: url("../images/icons/AC8.jpg") no-repeat center #f8dd96;
 	margin-left: auto;
 	margin-right: auto;
-	
 }
 #user-input-text dd{
-	margin-top:50px;
-	
-	margin-bottom:50px;
-
-	/* background: #51aea7; */
-	width: 800px;	
+	/* margin-left: auto;
+	margin-right: auto; */
+	background: #51aea7;
+	width: 1800px;	
 }
 
 #user-ipt-box > label{
@@ -105,8 +61,9 @@
 
 .vote-bar{
 	text-indent: 20px;
-	width: 700px;
-	height: 30px;
+	width: 1000px;
+	height: 50px;
+	background-color: pink;
 }
 
 .test{
@@ -116,29 +73,27 @@
 
 .write-review{
     height: 180px;
-    width: 960px;
+    width: 1150px;
 /* 	background: lawngreen; */
     position: absolute;
     padding-left: 20px;
     border: 1px solid black;
-    
-    border-radius:25px;
+    margin-left:50px;
 }
 
 
 #reply-num1{
-	width: 600px;
+	width: 850px;
     float: left;
 }
 
 #reply-num1 textarea{
-	width: 620px;
-    height: 110px;
+	
     
 }
 
 #reply-num1 div input{
-	width:500px;
+	width:800px;
 	height:100px;
 /*     margin-left: 20px; */
 }
@@ -146,13 +101,13 @@
 #reply-num1 label{
 	margin-top:4px;
 	border: 1px solid black;
-    width: 524px;
+    width: 710px;
     position: absolute;
     color:gray;
 }
 
 #add-picture{
-	width: 622px;
+	width: 806px;
 /*     background: pink; */
     float: left;
 }
@@ -167,10 +122,8 @@
 #reply-num2{
 	width: 300px;
     float: right;
-    height: 140px;
+    height: 100px;
 /*     border: 1px solid black; */
-    position: absolute;
-    right: 0px;
 }
 
 #reply-num2 button{
@@ -180,19 +133,16 @@
 }
 
 .input-warning{
-	
-	margin-left:3px;
-	margin-bottom: 5px;
+	margin-top:-8px;
+	margin-left:65px;
 }
 
 .user-replies{
-	position: relative;
-    width: 970px;
-   
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    margin-top: 30px;
-    min-height: 250px;
+	position:absolute;
+	width:1200px;
+	margin-left:50px;
+	border-top : 2px solid black;
+	border-bottom : 2px solid black;;
 }
 
 .user-reply-profile{
@@ -222,23 +172,18 @@
 .user-reply-txt{
     margin-left: 120px;
     padding-left: 50px;
-	width:530px;
+	width:830px;
 }
 .user-reply-txt span{	
-	margin-top:5px;
-    overflow: scroll;
+    overflow: hidden;
     font-size: 13px;
     line-height: 18px;
     word-break: break-all;
     word-wrap: break-word;
-    height: 130px;
-    float: left;
-    position:inherit;
-    min-width: 530px;
+    max-height:200px;
+    float:left;
 }
-::-webkit-scrollbar {
-display:none;
-}
+
 .user-reply-buttons button{
 	margin-left: 15px;
 	margin-top:25px;

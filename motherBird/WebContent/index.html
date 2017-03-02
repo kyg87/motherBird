@@ -8,10 +8,23 @@
 <title>Insert title here</title>
 <link rel="stylesheet" href="css/reset.css" />
 <link rel="stylesheet" href="css/mainStyle.css" />
+<!-- 반응형 웹 준비 -->
+<link rel="stylesheet" media="(max-width: 982px)" href="css/reaction.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
 	<!-- Header -->
+<<<<<<< HEAD
+	<header id="header" class="container">
+		<div id = "function-button">
+			<input type="button" name="버튼" value="로그인/가입" id="sign_button"
+				onclick="window.open('KY.html','width=350,height=200')" />			
+			<input type="button" name="버튼" value="글쓰기" id="write_button"
+				onclick="window.open('write/write.html','width=350,height=200')" />
+				
+			<input type="button" id="search_button" value="검색" />
+=======
 
 	<header id="header">
 		<div id="first-container">
@@ -23,7 +36,22 @@
 					<input type="button" name="버튼" value="로그인/가입"
 						onclick="window.open('KY.html','width=350,height=200')" />
 			</div>
+>>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 		</div>
+		
+		<div id = "function-toggle">
+			<label for = "toggle">
+				<img src = "images/Hamberger.png" id="function-image">
+			</label>
+			<input type="checkbox" id="toggle"/>
+			
+			<ul id="nav">
+				<li onclick="window.open('write/write.html','width=350,height=200')">글쓰기</li>
+				<li>검색하기</li>
+				<li onclick="window.open('KY.html','width=350,height=200')">로그인</li>
+			</ul>
+		</div>
+	
 	</header>
 	<!-- visual-------------------------------------------------------- -->
 	<div id="visual">
@@ -36,6 +64,33 @@
 		<div class="container clearfix">
 
 			<main id="thumbnails">
+<<<<<<< HEAD
+			<div id="sliderthumbanils"></div>
+
+			<div id="content">
+			
+			<div class="entryStage">
+				<a href="content.html">
+					<div class="poster">
+						<img src="images/icons/7.jpg" alt="" />
+						<p class="info">
+							<span class="content-title">우왕왕왕왕왕왕왕왕왕</span>
+						</p>
+					</div>
+				</a>
+			</div>
+
+			<div class="entryStage">
+				<a href="content.html">
+					<div class="poster">
+					<img src="images/icons/9.jpg" alt="" />
+						<p class="info">
+						"차에 치이기 직전에 침대에서 깨어났다. 그런데 알고보니 침대에 누워있는 것도 꿈이였다"
+						</p>
+					</div>
+				</a>
+			</div>
+=======
 				<div id="sliderthumbanils">
 				</div>
 
@@ -66,17 +121,16 @@
 						</div>
 					</a>
 				</div>
+>>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 
 
 			<div class="entryStage">
 				<a href="content.html">
 					<div class="poster">
 						<img src="images/icons/13.jpg" alt="" />
-					</div>
-
-					<div class="info">
-						<p class="venue">
-							<span> 수업중에 우주속에 있는 느낌을 받았다?</span>
+			
+						<p class="info">
+							수업중에 우주속에 있는 느낌을 받았다?
 						</p>
 					</div>
 				</a>
@@ -86,11 +140,9 @@
 				<a href="content.html">
 					<div class="poster">
 						<img src="images/icons/16.jpg" alt="" />
-					</div>
-
-					<div class="info">
-						<p class="venue">
-							<span> 전광렬은 실제 퉁소를 불고 있는 것일까?</span>
+					
+						<p class="info">
+							전광렬은 실제 퉁소를 불고 있는 것일까?
 						</p>
 					</div>
 				</a>
@@ -100,11 +152,9 @@
 				<a href="content.html">
 					<div class="poster">
 						<img src="images/icons/18.jpg" alt="" />
-					</div>
-
-					<div class="info">
-						<p class="venue">
-							<span> 우리가 살고 있는 세계 사실 꿈일까?!</span>
+					
+						<p class="info">
+							우리가 살고 있는 세계 사실 꿈일까?!
 						</p>
 					</div>
 				</a>
@@ -114,27 +164,16 @@
 				<a href="content.html">
 					<div class="poster">
 						<img src="images/icons/images (1).jpg" alt="" />
-					</div>
-
-					<div class="info">
-						<p class="venue">
-							<span> 김영균 정말 인성 문제일까?</span>
+					
+						<p class="info">
+							김영균 정말 인성 문제일까?
 						</p>
 					</div>
 				</a>
 			</div>
 
-			<div class="paging">
-
-
-				<a href=""><-</a> <a href="">1</a> <a href="">2</a> <a href="">3</a>
-				<a href="">4</a> <a href="">5</a><a href="">-></a>
-
-			</div>
-			<div id="submit">
-
-				<form>
-					<fieldset>
+			
+					<fieldset id="search-bar">
 						<legend class="hidden">검색필드</legend>
 						<label class="hidden">검색분류</label> <SELECT>
 							<OPTION VALUE=1 SELECTED>제목</OPTION>
@@ -144,7 +183,11 @@
 							placeholder="검색어를 입력하세요" /> <input class="btninfo" type="submit"
 							value="검색" />
 					</fieldset>
-				</form>
+			</div>
+			
+			<div class="paging">
+				<a href=""><-</a> <a href="">1</a> <a href="">2</a> <a href="">3</a>
+				<a href="">4</a> <a href="">5</a><a href="">-></a>
 
 			</div>
 
