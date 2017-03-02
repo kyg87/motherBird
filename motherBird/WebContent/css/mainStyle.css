@@ -1,10 +1,33 @@
 @charset "utf-8";
-@IMPORT url("mainlayout.css");
+@IMPORT url(mainlayout.css);
+
+body{
+	background: rgb(250,205,0);
+} 
+
 /* Basic */
 /* ---------------------------헤더------------------------- */
 .hidden{
 	display: none;
 }
+/* <-----------------header----------> */
+
+#main-menu{
+	float : right;
+/* 	position:absolute;
+	display:inline-block; */
+}
+
+.md-menu li a{
+	text-decoration: none;
+}
+.md-menu li a:hover{
+	text-decoration: underline;
+}
+
+
+
+/* ----------------------visual---------------------- */
 
 
 #function-button{
@@ -56,16 +79,20 @@
 
 /* ---------------------------------비주얼---------------- */
 #visual {	
-	border: 1px solid blue;
-	height: 240px;
-	background: #313131 url("../images/etc/vote.jpg") no-repeat center;
-	top:50px;
 
+}
+
+
+
+/* --------------------body-------------------------- */
+#body{
+	min-height: 900px;
 	display:block;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+<<<<<<< HEAD
 .poster img{
 	height:250px;
 }
@@ -75,19 +102,33 @@
     height: 240px;
     background: url(../images/slider-bg.jpg) no-repeat center;
     display: block;
+=======
+
+#sliderthumbanils {
+	height: 240px;
+	background: url("../images/slider-bg.jpg") no-repeat center;
+	/* width:100%; */
+	/* text-align: center; */
+>>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 	
 }
+
 #thumbnails {
- 	min-height: 800px;
-	border: 1px solid red;
+	min-height: 800px;
+	/* border: 1px solid red; */
 	
 	position: relative;
  	overflow: hidden; 
  	
  	
+<<<<<<< HEAD
+=======
+ 	/* padding-left: 10px; */
+>>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 	display:block;
 	
 }
+
 .entryStage {
 	/* border: 1px solid black; */
 	border-top-left-radius: 4px;
@@ -120,7 +161,24 @@
 	
 }
 .info{
+<<<<<<< HEAD
 	background: #ff8080;
+=======
+	position: absolute;
+	/* margin-top: 110px; */
+	
+}
+/* ------------------------------------------------------ */
+.entryStage .info {
+	padding-top: 15px;
+	height: 100px;
+	overflow: hidden;
+	position: relative;
+}
+
+.venue {
+	background: #ff3;
+>>>>>>> 20d3a5a84b829ddd64dca34e159b0f4f2cda71a9
 	color: #000;
 	font-size: 14px;
 	font-weight: bold;
@@ -156,6 +214,48 @@
     background-color: yellow;
     border-color: yellow;
 }
+/*  #footer {
+	border: 1px solid;
+	height: 100px;
+	background: #2e2a28;
+}
+ */
+#footer{
+	padding-top:23px;
+}
+
+
+#footer ul{
+	padding-bottom:10px;
+}
+
+
+#footer li{
+	font-size:14px;
+ 	font-family:맑은고딕,sans-serif;
+ 	padding-right:10px;
+ 	padding-left:10px;
+ 	border-right:5px solid rgba(244,245,249,0.2254);
+ 	color:rgba(244,245,249,0.4254)/* #f4f5f9 */;
+	display: inline;
+}
+
+
+#footer li:LAST-CHILD{
+ 	border-right:none;
+}
+
+/* ----------------------------------------------------------- */
+/* --------------------페이지 영역 크기--------------- */
+.container
+{	
+width:982px;
+height:100%;
+min-height : inherit;
+margin-left: auto;
+margin-right: auto;
+position: relative;
+}
 /* ---------------------------------------------------- */
 /* 이미지 크기 자동조절 */
 img {
@@ -164,3 +264,16 @@ height: auto;
 	
 }
 /* 이미지 크기 자동조절 */
+
+/* 탑버튼 만듬 */
+.quick{
+position:fixed;
+bottom:50px;
+right:30px;
+
+}
+.clearfix{
+	
+	overflow:auto;
+	zoom: 1;
+}
