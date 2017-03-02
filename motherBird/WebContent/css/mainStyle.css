@@ -1,10 +1,60 @@
 @charset "utf-8";
 @IMPORT url("mainlayout.css");
 /* Basic */
+/* ---------------------------헤더------------------------- */
 .hidden{
 	display: none;
 }
 
+
+#function-button{
+	padding-right:10px;
+	padding-top:10px;
+}
+
+#sign_button{
+	right:0px;
+	position:relative;
+	
+	float:right;
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+#search_button{
+	margin-right:10px;
+	right:0px;
+	position:relative;
+	
+	float:right;
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+#write_button{
+	margin-right:10px;
+	right:0px;
+	position:relative;
+	
+	float:right;
+	width:100px;
+	height:30px;
+	border-radius: 5px;
+	border: 1px solid black;
+	background-color: white;
+}
+
+#function-toggle{
+	display: none;
+}
+
+/* ---------------------------------비주얼---------------- */
 #visual {	
 	border: 1px solid blue;
 	height: 240px;
@@ -16,14 +66,16 @@
 	margin-right: auto;
 }
 
+.poster img{
+	height:250px;
+}
+
 #sliderthumbanils {
 	border: 1px solid #000040;
-	height: 240px;
-	background: url("../images/slider-bg.jpg") no-repeat center;
-
+    height: 240px;
+    background: url(../images/slider-bg.jpg) no-repeat center;
+    display: block;
 	
-	display:block;
-	margin-bottom: 10px;
 }
 #thumbnails {
  	min-height: 800px;
@@ -33,12 +85,13 @@
  	overflow: hidden; 
  	
  	
- 	
 	display:block;
 	
 }
 .entryStage {
-	border: 1px solid black;
+	/* border: 1px solid black; */
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
 	display: block;
 	float: left;
 	width: 300px;
@@ -47,10 +100,10 @@
 	position: relative;
 	margin-top: 0px;
 	margin-bottom: 20px;
-	margin-left: 11px;
+	margin-left: 18px;
 /* 	margin-right:5px; */
-	padding: 5px; 
-	text-align: center;
+	/* padding: 5px; */
+	padding-top: 15px;
 	
 	overflow:hidden; 
 }
@@ -67,36 +120,32 @@
 	
 }
 .info{
-	position: absolute;
-	margin-top: 110px;
-	
-}
-/* ------------------------------------------------------ */
-.entryStage .info {
-	padding-top: 15px;
-	height: 100px;
-	overflow: hidden;
-	position: relative;
-}
-
-.venue {
-	background: #ff3;
+	background: #ff8080;
 	color: #000;
 	font-size: 14px;
 	font-weight: bold;
-	
+	height: 50px;
+	overflow: hidden;
+	position: relative;	
 }
-
+.content-title{
+	display:table-cell;
+	vertical-align:middle
+}
+/* ------------------------------------------------------ */
 /* 페이지 부분  */
 .paging {
 	text-align: center;
 }
 
-#submit{
-	text-align: right;
-	border:1px solid;
+#content{
+    border: 1px solid;
+    padding-top: 20px;
 }
 
+#search-bar{
+	text-align:right;
+}
 
 .btninfo{
     text-align: center;
